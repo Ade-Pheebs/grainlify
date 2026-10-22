@@ -1927,6 +1927,8 @@ mod test;
 // #[cfg(test)] mod test_invariants;
 #[cfg(test)]
 mod test_lifecycle;
+#[cfg(test)]
+mod test_metadata;
 
 // Boundary coverage for `update_metadata` numeric/time arguments.
 //
