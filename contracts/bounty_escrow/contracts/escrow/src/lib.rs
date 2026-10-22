@@ -3487,6 +3487,8 @@ mod escrow_status_transition_tests {
 #[cfg(test)]
 mod test_admin_invalid_identifiers;
 #[cfg(test)]
+mod test_batch_lock_funds_soa_boundary;
+#[cfg(test)]
 mod test_deadline_variants;
 #[cfg(test)]
 mod test_refund_boundaries;
